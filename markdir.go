@@ -18,7 +18,7 @@ import (
 var (
 	bind        = flag.String("bind", "127.0.0.1:8080", "port to run the server on")
 	contentRoot = flag.String("root", ".", "markdown files root dir")
-	isPackr     = true
+	isPackr     = false
 )
 
 type httpHandler struct {
